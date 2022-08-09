@@ -9,20 +9,20 @@ Let see how we can implement it in our project, it is much easy to set it up in 
 
 You can get started with this library very easily.
 
-You can download the Baserow library from [here]().
+You can download the Baserow library from [here](https://github.com/Sumit1334/Baserow-Socket/tree/master/library/out).
 
 After downloading it you have to place that file in your `lib` folder of your project like this :
 
 ![image](https://user-images.githubusercontent.com/74917290/183563034-133a4451-c69a-4bee-b68c-beaabb934089.png)
 
 
-After adding the baserow library, you have to add other needed library for using the websocket.<br>
-Just add these lines in your dependencies and click on sync now button to complete the procedure.
+After adding the baserow library, you have to configure the jar in your gradle by adding the below line in your dependency and click on sync now button to complete the procedure.
 
 ```
 // for adding our jar from libs dir
 implementation fileTree(include: ['*.jar'], dir: 'libs')
 ```
+
 
 Now you have added the Baserow library into your app and can use it to make your apps.
 
